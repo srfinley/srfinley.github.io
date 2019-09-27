@@ -7,6 +7,7 @@ gh-badge: [star]
 tags: [summary]
 ---
 
+A brief exploration of the 2015 Boston Marathon, looking at how closely times at checkpoints throughout the race correlate with finishing time and final rank. I place particular emphasis on interpreting outliers.
 
 ![Marathon times](https://srfinley.github.io/img/checktimevfinaltime.png){: .center-block :}
 
