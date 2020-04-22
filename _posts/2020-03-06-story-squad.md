@@ -7,15 +7,15 @@ gh-badge: [star]
 tags: [long post]
 ---
 
-Story Squad is a platform for weekly storytelling and art contests among kids in grades three through six. As a member of the three-person "Labs 20" team tasked with building the foundation of the data science component of the application over eight weeks, my work was all about making a high-performing algorithm to match participants with their peers.
+Story Squad is a platform for weekly storytelling and art contests among kids in grades three through six. As a member of the three-person "Labs 20" team, I was tasked with building the foundation of the data science component of the application over eight weeks. Our work was all about making a high-performing algorithm to match participants with their peers.
 
-What did this look like in practice? The Story Squad scoring system involves two rounds of assessment. On each team of two, kids rate their own and their partner's creative submissions on a relative basis, betting points on which story or illustration is most likely to win the head-to-head matchups against an unknown opposing team's stories and illustrations. In the second phase, independent evaluators pick their favorites between the stories and illustrations matched across different teams.
+The Story Squad game involves two rounds of assessment. On each team of two, kids rate their own and their partner's creative submissions on a relative basis, betting points on which story or illustration is most likely to win the head-to-head matchups against an unknown opposing team's stories and illustrations. In the second phase, independent evaluators pick their favorites between the stories and illustrations matched across different teams.
 
 This means that kids have a lot of chances to win each week. Either their story or their illustration might be assigned more points than their teammate's; either one might win its head-to-head with the opponents' submissions; and even if none of those happen, their team could still collectively get more points and carry the day.
 
-These chances can only manifest meaningfully for a kid if their group of four -- them, their teammate, and a pair of opponents -- are all performing on roughly the same level. A weak teammate is a liability and an embarrassing associate; a weak opponent, conversely, provides no glory upon defeat. Likewise, there's no fun in being steamrolled by an obviously more advanced opponent or carried by a hugely superior ally. Bad matchups not only make the game less fun, but also send a signal to a participant that they're in the wrong place.
+These chances can only manifest meaningfully for a kid if their group of four -- them, their teammate, and a pair of opponents -- are all performing on roughly the same level. A weak teammate is a liability; a weak opponent is hardly a pleasure to defeat. Likewise, there's no fun in being steamrolled by an obviously more advanced opponent or carried by a hugely superior ally. Bad matchups not only make the game less fun, but also send a signal to a participant that they're in the wrong place.
 
-Given all that, and the huge developmental gaps among the target audience, creating better-than-random matchups is critical.
+Given all that and the huge developmental gaps among the target audience, creating better-than-random matchups is critical.
 
 Getting from a full cohort of creative submissions to a set of teams and matchups was a three-part process:
 
@@ -25,7 +25,7 @@ Getting from a full cohort of creative submissions to a set of teams and matchup
 
 A pretty tall order!
 
-We focused on processing written story submissions during our time on the project. That meant that step one was perfectly clear; we needed to incorporate optical character recognition into the data pipeline so that the text of each handwritten story could be processed later. We used Google Cloud's Vision API, which provided a high degree of accuracy quickly and with a low cost. During this phase, I wrote a Python script that inserted both automatic and manual transcriptions of each of the 167 stories in our sample dataset into a convenient csv file and devised a metric that would reflect the quality of the automatic transcription.
+We focused on processing written story submissions during our time on the project. That meant that step one was perfectly clear; we needed to incorporate optical character recognition into the data pipeline so that the text of each handwritten story could be processed later. We used Google Cloud's Vision API, which provided a high degree of accuracy quickly and with a low cost. During this phase, I wrote a Python script that inserted both automatic and manual transcriptions of each of the 167 stories from our sample dataset into a convenient csv file. I also devised a metric that would provide insight into the quality of the automatic transcription.
 
 Step two was more open-ended. We ended up drawing on the rich tradition of "reading scores" like the Flesch Reading Ease score and the Coleman-Liau Index for this part, as well as taking cues from our client, the Story Squad founder, on story elements he associated with storytelling competence. During this phase, I updated our csv to include the scores we were considering to allow for easy data exploration.
 
