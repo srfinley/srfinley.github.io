@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Visualization and Storytelling
+title: Storytelling and Data
 subtitle: Visualizing the 2015 Boston Marathon
 gh-repo: srfinley/DS-Unit-1-Project-Data-Storytelling
 gh-badge: [star]
