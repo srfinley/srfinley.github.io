@@ -18,5 +18,4 @@ I'm an educator and lifelong learner with diverse interests.
 - [A Virtual Pyrogram Generator to Resolve Complex Pyrosequencing Results](https://jmd.amjpathol.org/article/S1525-1578(11)00315-1/abstract), 2012
 
 ### Contact
-
 You can direct professional inquiries to srfinley at uchicago dot edu.
