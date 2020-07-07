@@ -8,7 +8,7 @@ I'm an educator and lifelong learner with diverse interests.
 
 ### Education
 
-- Currently studying Data Science at Lambda School
+- Endorsed in Data Science by Lambda School
 - Graduated with honors from the University of Chicago in 2016 with a degree in English Language and Literature
 - Graduated from The Park School of Baltimore in 2012
 
